@@ -8,6 +8,8 @@ This repository contains the Jupyter notebooks from the capstones for the four m
 - **Statistics**: Application of descriptive and inferential statistics, probability distributions and hypothesis testing in Python.
 - **Regression**: Predicting TikTok video characteristics using linear regression.
 - **Machine Learning**: Modeling video engagement features with RandomForest, XGBBoost and other models.
+- **Capstone Project**:  Analyze the data of a recent survey along with employee data to design a model that predicts whether an employee will leave the company based on their  department, number of projects, average monthly hours, and any other data points and explain what is driving turnover. This capstone project includes a bit of everything from EDA to modeling to synthesizing the analysis into actionable insight.
+
 
 Before we get into the details of the concepts and tools applied, let's touch on the fun stuff...
 
@@ -72,12 +74,28 @@ It seems that Google might have embedded some subtle challenges in each capstone
   - Hyperparameter Tuning
   - Cross-validation
   - Confusion Matrix
-  - ROC Curve and AUC
+  - ROC AUC
 - **Tools**:
   - XGBoost 
   - Random Forest Classifier, 
   - Grid Search, 
   - Randomized Search,
+  - Optuna Search
+  - Confusion Matrix
+  - Custom metric
+
+
+  ### 5. [CapstoneProject_SalifortMotors_TurnoverAnalysis.ipynb](./CapstoneProject_SalifortMotors_TurnoverAnalysis.ipynb)
+- **Concepts**:
+  - Cox Proportional Hazard 
+  - Classification
+  - Hyperparameter Tuning
+  - Cross-validation
+  - Confusion Matrix
+  - ROC AUC
+- **Tools**:
+  - XGBoost 
+  - Random Forest Classifier 
   - Optuna Search
   - Confusion Matrix
   - Custom metric
